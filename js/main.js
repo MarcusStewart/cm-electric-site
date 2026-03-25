@@ -129,3 +129,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// FAQ Accordion Functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const accordions = document.querySelectorAll('.accordion-header');
+    
+    accordions.forEach(accordion => {
+        accordion.addEventListener('click', () => {
+            const item = accordion.parentElement;
+            
+            // Close other accordions
+            document.querySelectorAll('.accordion-item').forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove('active');
+                }
+            });
+            
+            // Toggle current accordion
+            item.classList.toggle('active');
+        });
+    });
+});
