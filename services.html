@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CM Electric Services - Professional electrical safety inspections, wiring, panel upgrades, and 24/7 emergency services.">
+    <title>Our Services | CM Electric</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">CM Electric</span>
+            </a>
+            
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="services.html" class="nav-link" style="color: var(--brand-primary)">Services</a></li>
+                    <li class="nav-item"><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="index.html#reviews" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link nav-btn">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-hero-subtitle">What We Do</div>
+                <h1 class="page-hero-title">Our Services</h1>
+                <p class="section-subtitle" style="margin: 0 auto; color: var(--text-primary)">We offer professional wiring and electrical services tailored to your specific residential or commercial needs.</p>
+            </div>
+            <!-- Decorative Elements -->
+            <div class="bg-glow glow-1"></div>
+        </section>
+
+        <!-- Detailed Services Section -->
+        <section class="services section">
+            <div class="container section-container">
+                <!-- Services Filter -->
+                <div class="services-filter">
+                    <button class="filter-btn active" data-filter="all">All Services</button>
+                    <div class="filter-group">
+                        <button class="filter-btn" data-filter="commercial">Commercial</button>
+                        <button class="filter-btn" data-filter="industrial">Industrial</button>
+                        <button class="filter-btn" data-filter="residential">Residential</button>
+                    </div>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card" data-category="residential">
+                        <div class="service-icon">🔍</div>
+                        <h3 class="service-title">Electrical Safety Inspections</h3>
+                        <p class="service-desc">Our skilled team diagnoses and repairs electrical issues, from faulty outlets to circuit overloads, ensuring the safety and functionality of your electrical systems.</p>
+                        <ul class="service-features">
+                            <li>Energy-Efficient Lighting Solutions</li>
+                            <li>Home Automation Integration</li>
+                            <li>Electrical Consultation and Design</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card" data-category="commercial">
+                        <div class="service-icon">🚨</div>
+                        <h3 class="service-title">Emergency Electrical Services</h3>
+                        <p class="service-desc">When a power outage hits or critical circuits fail, our rapid response team is available 24/7 to restore power quickly and prevent future outages.</p>
+                        <ul class="service-features">
+                            <li>24/7 Rapid Response Time</li>
+                            <li>Fault Diagnostics</li>
+                            <li>Emergency Repairs</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card" data-category="industrial">
+                        <div class="service-icon">🔌</div>
+                        <h3 class="service-title">Wiring & Rewiring Services</h3>
+                        <p class="service-desc">Complete home rewiring, panel upgrades, and new construction electrical installations executed with precise craftsmanship and code compliance.</p>
+                        <ul class="service-features">
+                            <li>Full Home Rewiring</li>
+                            <li>Electrical Panel Upgrades</li>
+                            <li>New Construction Wiring</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card" data-category="residential">
+                        <div class="service-icon">💡</div>
+                        <h3 class="service-title">Smart Home Panel Integration</h3>
+                        <p class="service-desc">Upgrade your home with smart electrical panels and intuitive load management systems designed for modern residential power consumption.</p>
+                        <ul class="service-features">
+                            <li>Smart Load Balancing</li>
+                            <li>App-Based Monitoring</li>
+                            <li>Energy Savings</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Service 5 -->
+                    <div class="service-card" data-category="commercial">
+                        <div class="service-icon">🏢</div>
+                        <h3 class="service-title">Commercial Lighting Design</h3>
+                        <p class="service-desc">Enhance your business aesthetics and functionality with custom commercial lighting solutions built to scale with your retail or office space.</p>
+                        <ul class="service-features">
+                            <li>Custom Light Mapping</li>
+                            <li>LED Retrofits</li>
+                            <li>Security Lighting</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="service-card" data-category="industrial">
+                        <div class="service-icon">⚙️</div>
+                        <h3 class="service-title">Heavy Machinery Power Drops</h3>
+                        <p class="service-desc">High-voltage 3-phase power drop installations designed specifically for manufacturing lines and heavy industrial equipment requirements.</p>
+                        <ul class="service-features">
+                            <li>3-Phase High Voltage</li>
+                            <li>Factory Line Wiring</li>
+                            <li>Safety Interlocks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="cta-banner">
+            <div class="container">
+                <h2 class="cta-title">Don't hesitate to reach out to us today!</h2>
+                <div class="cta-actions">
+                    <a href="index.html#contact" class="btn btn-primary">Get a Free Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">CM Electric</span>
+                    </a>
+                    <p>Quality meets excellence in electrical solutions. Your trusted partner for residential and commercial electrical needs.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="index.html#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Safety Inspections</a></li>
+                        <li><a href="services.html">Emergency Services</a></li>
+                        <li><a href="services.html">Wiring & Rewiring</a></li>
+                        <li><a href="services.html">Panel Upgrades</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CM Electric. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
